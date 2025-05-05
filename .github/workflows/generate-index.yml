@@ -1,12 +1,14 @@
 name: Generate Week Index
 
 on:
-  push:
-    paths:
-      - 'public/data/*'  # Trigger when CSV files in the data folder are modified
+  workflow_run:
+    workflows: ["Scrape Curling Data Weekly"]
+    types:
+      - completed
 
 jobs:
   generate-index:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
 
     steps:
@@ -20,11 +22,9 @@ jobs:
 
       - name: Generate index.json
         run: |
-          # Find all CSV files in the public/data folder
           find public/data -name "curling_data_week_*.csv" | \
             sed 's/.*week_\([0-9]*\).csv/\1/' > weeks.txt
 
-          # Convert list of weeks to JSON format
           echo '{"weeks":[' > public/data/index.json
           awk '{print "\"" $1 "\","}' weeks.txt | sed '$s/,$//' >> public/data/index.json
           echo ']}' >> public/data/index.json
@@ -33,6 +33,4 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/data/index.json
-          git commit -m "Auto-generated index.json"
-          git push
+          git add public
