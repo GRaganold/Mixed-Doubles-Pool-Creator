@@ -34,4 +34,5 @@ jobs:
           git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/GRaganold/Mixed-Doubles-Pool-Creator.git
           git add data/*.csv
           git commit -m "Add new weekly curling data (auto)" || echo "No changes to commit"
-          git push
+          git push  
+
