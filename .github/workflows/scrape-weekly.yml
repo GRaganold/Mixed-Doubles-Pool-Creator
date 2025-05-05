@@ -25,7 +25,7 @@ jobs:
 
       - name: Run scraper
         run: |
-          python scrape.py
+          python src/curling-scraper/scrape.py
 
       - name: Commit and push new data
         run: |
