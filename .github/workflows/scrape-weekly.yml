@@ -32,12 +32,12 @@ jobs:
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/GRaganold/Mixed-Doubles-Pool-Creator.git
+            git pull --rebase --no-edit https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/GRaganold/Mixed-Doubles-Pool-Creator.git master
         
             git add public/data/*.csv
             git commit -m "Add new weekly curling data (auto)" || echo "No changes to commit"
         
             # ✅ Authenticated pull with --no-edit to avoid merge prompts
-            git pull --rebase --no-edit https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/GRaganold/Mixed-Doubles-Pool-Creator.git master
         
             git push origin master
           
