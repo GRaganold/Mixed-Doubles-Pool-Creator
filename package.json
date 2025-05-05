@@ -10,9 +10,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "deploy": "npm run build && gh-pages -d dist"
-
   },
   "dependencies": {
+    "prettier": "^3.5.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },

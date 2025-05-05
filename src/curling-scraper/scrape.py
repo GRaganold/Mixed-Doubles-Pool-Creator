@@ -29,7 +29,8 @@ days_since_start = (today - season_start).days
 current_week = (days_since_start // 7) + 1  # Week 1 starts at 0–6 days after start
 
 # Folder to save data
-data_folder = os.path.join(os.path.dirname(__file__), '../../public/data/')
+data_folder = os.path.join(os.getcwd(), 'public/data/')
+
 
 # Ensure the /public/data/ folder exists
 if not os.path.exists(data_folder):

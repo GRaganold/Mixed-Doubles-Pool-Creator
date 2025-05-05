@@ -21,23 +21,23 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests pandas beautifulsoup4 tk ttkbootstrap openpyxl
+          pip install requests pandas beautifulsoup4
+
+      - name: Ensure data directory exists
+        run: |
+          mkdir -p public/data
+          chmod -R 777 public/data
 
       - name: Run scraper
         run: |
           python src/curling-scraper/scrape.py
 
-          - name: Commit and push new data
-          run: |
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/GRaganold/Mixed-Doubles-Pool-Creator.git
-            git pull --rebase --no-edit https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/GRaganold/Mixed-Doubles-Pool-Creator.git master
-        
-            git add public/data/*.csv
-            git commit -m "Add new weekly curling data (auto)" || echo "No changes to commit"
-        
-            # ✅ Authenticated pull with --no-edit to avoid merge prompts
-        
-            git push origin master
-          
+      - name: Commit and push new data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/GRaganold/Mixed-Doubles-Pool-Creator.git
+          git add public/data/*.csv
+          git commit -m "Add new weekly curling data (auto)" || echo "No changes to commit"
+          git pull --rebase origin master
+          git push origin master
