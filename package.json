@@ -5,7 +5,7 @@
   "type": "module",
   "homepage": "https://graganold.github.io/mixed-doubles-pool-creator",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host --port 3000",
     "lint": "eslint .",
     "build": "vite build",
     "preview": "vite preview",
@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.4.1",
+    "papaparse": "^5.5.2",
     "prettier": "^3.5.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
