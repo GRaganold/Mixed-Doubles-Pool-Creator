@@ -9,7 +9,6 @@ export default function UserInputs({ selectedWeek }) {
 	const [suggestions, setSuggestions] = useState({}) // FIXED: initialized as object
 	const [originalData, setOriginalData] = useState([])
 
-
 	useEffect(() => {
 		if (!selectedWeek) return
 
@@ -85,7 +84,7 @@ export default function UserInputs({ selectedWeek }) {
 	const handleResetTotal = teamName => {
 		const originalRow = originalData.find(row => row["Team"] === teamName)
 		if (!originalRow) return
-	
+
 		const updatedData = data.map(row => {
 			if (row["Team"] === teamName) {
 				return { ...row, TOTAL: originalRow["TOTAL"] }
@@ -94,13 +93,11 @@ export default function UserInputs({ selectedWeek }) {
 		})
 		setData(updatedData)
 	}
-	
-
-
-	
 
 	return (
 		<>
+			<h2> Event Details</h2>
+			<p class="instruction"> Enter the number of teams in your event and the of pools </p>
 			<div
 				style={{
 					display: "flex",
@@ -135,6 +132,10 @@ export default function UserInputs({ selectedWeek }) {
 				</label>
 			</div>
 
+			<h3> Enter Registers teams information </h3>
+			<p class="instruction">
+				For each input, enter the team name. A dropdown will appear to help you auto-complete and select the team. Once selected, the team will be added to the list below.
+			</p>
 			{/* Dynamic team inputs */}
 			{inputValues.map((value, index) => (
 				<div key={index} style={{ position: "relative", maxWidth: "300px" }}>
@@ -166,6 +167,12 @@ export default function UserInputs({ selectedWeek }) {
 				</div>
 			))}
 
+			<h2>Ranking for the Event</h2>
+			<p class="instruction">
+				The teams entered above will be ranked based on the selected week's world rankings. You can add or subtract points as needed—use a one (1) point adjustment to break ties.
+				Teams will then be snake-ordered into the selected number of pools.
+			</p>
+
 			<div style={{ marginTop: "30px", padding: "10px", border: "1px solid #ccc", borderRadius: "8px" }}>
 				<h4>Selected Team Rankings by TOTAL:</h4>
 				{inputValues
@@ -188,17 +195,23 @@ export default function UserInputs({ selectedWeek }) {
 						return totalB - totalA // Sort in descending order
 					})
 					.map((row, index) => (
-						<div key={index} >
-						<p>#{index + 1} – {row["Team"]}: {row["TOTAL"]}
-							<span style={{ marginRight: "5px" }}> </span>
-						<button onClick={() => handleAddToTotal(row.Team)} style={{ marginRight: "5px" }}>+</button>
-						<button onClick={() => handleSubtractToTotal(row.Team)} style={{ marginRight: "5px" }}>-</button>
-						<button onClick={() => handleResetTotal(row.Team)} style={{ marginRight: "5px" }}>Reset</button>
-						</p>
-					</div>
+						<div key={index}>
+							<p>
+								#{index + 1} – {row["Team"]}: {row["TOTAL"]}
+								<span style={{ marginRight: "5px" }}> </span>
+								<button onClick={() => handleAddToTotal(row.Team)} style={{ marginRight: "5px" }}>
+									+
+								</button>
+								<button onClick={() => handleSubtractToTotal(row.Team)} style={{ marginRight: "5px" }}>
+									-
+								</button>
+								<button onClick={() => handleResetTotal(row.Team)} style={{ marginRight: "5px" }}>
+									Reset
+								</button>
+							</p>
+						</div>
 					))}
 			</div>
-
 			{numPools > 0 && inputValues.length > 0 && (
 				<div style={{ marginTop: "30px", padding: "10px", border: "1px solid #ccc", borderRadius: "8px", backgroundColor: "#f9f9f9" }}>
 					<h4 style={{ textAlign: "center", fontWeight: "bold", color: "#333" }}>Snake-Ordered Pools</h4>
@@ -300,7 +313,6 @@ export default function UserInputs({ selectedWeek }) {
 					})()}
 				</div>
 			)}
-			
 		</>
 	)
 }

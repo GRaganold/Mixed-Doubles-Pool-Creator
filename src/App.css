@@ -88,3 +88,15 @@ p {
 .mt-4 { margin-top: 1rem; }
 .mb-2 { margin-bottom: 0.5rem; }
 .mb-4 { margin-bottom: 1rem; }
+
+
+.instruction {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+  color: #444;
+  background-color: #f1f5f9;
+  padding: 1rem;
+  border-left: 4px solid #4a90e2;
+  border-radius: 0.5rem;
+}
