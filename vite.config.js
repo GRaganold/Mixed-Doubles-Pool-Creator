@@ -3,6 +3,6 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/mixed-doubles-pool-creator/', // this MUST match your repo name
+  base: '/Mixed-Doubles-Pool-Creator/', // Match exact casing
   plugins: [react()],
 })
