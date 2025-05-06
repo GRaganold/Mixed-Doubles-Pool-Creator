@@ -37,6 +37,23 @@ export default function App() {
 					textAlign: "center", // Optionally center text
 				}}
 			>
+				<h1>Mixed Doubles Curling Tour Pool Creator</h1>
+				<p>
+					Welcome to the Ontario Mixed Doubles Curling Tour Pool Creator! This tool allows you to easily organize teams into pools for the competition. Simply input the team names,
+					adjust rankings as needed, and let the system do the work to generate balanced pools for your event.
+				</p>
+				<p>
+					<i>
+						Rankings are updated every Monday at 9 AM (EST). This application fetches the latest rankings from CurlingZone and saves them according to the corresponding week
+						number, aligning with CurlingZone's official curling season schedule.
+					</i>
+				</p>
+				<p>
+					<i>
+					Rankings will be cleared at the end of each season. Week 0 will represent the rankings prior to the season's commencement.
+					</i>
+				</p>
+			
 				<WeekSelector
 					weeks={weeks}
 					selectedWeek={selectedWeek} // Pass selectedWeek as a prop
@@ -44,12 +61,9 @@ export default function App() {
 				/>
 
 				{selectedWeek && <Rankings selectedWeek={selectedWeek} />}
-        <br/>
+				<br />
 				{selectedWeek && <UserInputs selectedWeek={selectedWeek} />}
 			</div>
 		</>
 	)
 }
-
-
-

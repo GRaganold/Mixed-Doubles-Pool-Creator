@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://graganold.github.io/mixed-doubles-pool-creator",
+  "homepage": "https://graganold.github.io/Mixed-Doubles-Pool-Creator/",
   "scripts": {
     "dev": "vite --host --port 3000",
     "lint": "eslint .",
