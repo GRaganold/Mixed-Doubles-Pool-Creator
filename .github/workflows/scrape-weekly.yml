@@ -2,8 +2,8 @@ name: Scrape Curling Data Weekly
 
 on:
   schedule:
-    - cron: '0 9 * * 1'  # Every Monday at 9:00 UTC
-  workflow_dispatch:     # Allow manual trigger too
+    - cron: "0 9 * * 1" # Every Monday at 9:00 UTC
+  workflow_dispatch: # Allow manual trigger too
 
 jobs:
   scrape:
@@ -16,7 +16,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: "3.x"
 
       - name: Install dependencies
         run: |
@@ -33,7 +33,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/GRaganold/Mixed-Doubles-Pool-Creator.git
           git pull --rebase --no-edit https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/GRaganold/Mixed-Doubles-Pool-Creator.git master
-          
+
           git add public/data/*.csv
           git commit -m "Add new weekly curling data (auto)" || echo "No changes to commit"
           git push origin master
