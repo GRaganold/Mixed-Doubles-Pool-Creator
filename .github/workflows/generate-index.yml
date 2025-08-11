@@ -6,6 +6,9 @@ on:
     types:
       - completed
 
+permissions:
+  contents: write
+
 jobs:
   generate-index:
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
@@ -30,9 +33,32 @@ jobs:
           echo ']}' >> public/data/index.json
 
       - name: Commit and push changes
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/data/index.json
-          git commit -m "Auto-generated index.json" || echo "No changes to commit"
-          git push
+
+          # Check if there are changes to index.json
+          if ! git diff --quiet public/data/index.json; then
+            git add public/data/index.json
+            git commit -m "Auto-generated index.json"
+            git push
+            echo "DEPLOY_NEEDED=true" >> $GITHUB_ENV
+          else
+            echo "No changes to index.json, skipping commit & deploy."
+            echo "DEPLOY_NEEDED=false" >> $GITHUB_ENV
+          fi
+
+      - name: Set up Node.js
+        if: env.DEPLOY_NEEDED == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        if: env.DEPLOY_NEEDED == 'true'
+        run: npm ci
+
+      - name: Deploy to GitHub Pages
+        if: env.DEPLOY_NEEDED == 'true'
+        run: npm run deploy
