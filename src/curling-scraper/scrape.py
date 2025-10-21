@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 
 # Get the current year dynamically
-current_year = datetime.today().year
+current_year = 2026
 
 # Function to find the first Monday of August
 def get_first_monday_of_august(year):
@@ -41,6 +41,7 @@ def scrape_and_save(week):
     try:
         # Construct the URL dynamically
         url = f"https://www.curlingzone.com/rankings.php?task=week&oomid=85&eventyear={current_year}&week={week}#1"
+
 
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
