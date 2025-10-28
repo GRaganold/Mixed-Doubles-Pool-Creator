@@ -15,11 +15,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository at triggering commit
+      - name: Checkout current branch (master)
         uses: actions/checkout@v3
         with:
-          repository: ${{ github.event.workflow_run.repository.full_name }}
-          ref: ${{ github.event.workflow_run.head_sha }}
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -29,7 +28,7 @@ jobs:
       - name: Generate index.json
         run: |
           find public/data -name "curling_data_week_*.csv" | \
-            sed 's/.*week_\([0-9]*\).csv/\1/' > weeks.txt
+            sed 's/.*week_\([0-9]*\).csv/\1/' | sort -n > weeks.txt
 
           echo '{"weeks":[' > public/data/index.json
           awk '{print "\"" $1 "\","}' weeks.txt | sed '$s/,$//' >> public/data/index.json
@@ -40,6 +39,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Pull latest master to avoid push rejection
+          git fetch origin
+          git rebase origin/master
 
           if ! git diff --quiet public/data/index.json; then
             git add public/data/index.json
