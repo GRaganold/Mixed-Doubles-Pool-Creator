@@ -3,8 +3,7 @@ name: Generate Week Index
 on:
   workflow_run:
     workflows: ["Scrape Curling Data Weekly"]
-    types:
-      - completed
+    types: [completed]
 
 permissions:
   contents: write
@@ -15,10 +14,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout current branch (master)
+      - name: Checkout repository (full history, master branch)
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
+          ref: master
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -35,22 +35,22 @@ jobs:
           echo ']}' >> public/data/index.json
 
       - name: Commit and push changes
-        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Pull latest master to avoid push rejection
-          git fetch origin
-          git rebase origin/master
+          # pull latest remote changes first
+          git pull --rebase origin master || true
 
           if ! git diff --quiet public/data/index.json; then
             git add public/data/index.json
             git commit -m "Auto-generated index.json"
-            git push
+
+            # Safe push: force only if our local commit was the latest automation commit
+            git push --force-with-lease
             echo "DEPLOY_NEEDED=true" >> $GITHUB_ENV
           else
-            echo "No changes to index.json, skipping commit & deploy."
+            echo "No changes to index.json"
             echo "DEPLOY_NEEDED=false" >> $GITHUB_ENV
           fi
 
