@@ -15,8 +15,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repository at triggering commit
         uses: actions/checkout@v3
+        with:
+          repository: ${{ github.event.workflow_run.repository.full_name }}
+          ref: ${{ github.event.workflow_run.head_sha }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -38,7 +41,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Check if there are changes to index.json
           if ! git diff --quiet public/data/index.json; then
             git add public/data/index.json
             git commit -m "Auto-generated index.json"
