@@ -1,0 +1,423 @@
+Rank,Team,Location,YTD,TOTAL
+1.,Gill/Hewitt,Australia,175.0,213.1
+2.,Skaslien/Nedregotten,Norway,151.0,183.7
+3.,Kim/Jeong,Korea,158.7,158.7
+4.,Koana/Aoki,Japan,128.8,154.7
+5.,Thiesse/Dropkin,Minnesota,124.7,148.6
+6.,Ye/Yu,China,131.8,131.8
+7.,Westman/Ahlberg,Sweden,119.1,129.1
+8.,Zelingrova/Chabicovsky,Czechia,105.8,118.3
+9.,Perret/Rios,Switzerland,95.3,114.2
+10.,Kaldvee/Lill,Estonia,66.7,112.7
+11.,Ford/Campbell,Ontario,99.3,112.0
+12.,Dodds/Mouat,Great Britain,68.2,104.8
+13.,Matsumura/Tanida,Japan,80.5,104.8
+14.,Neil/McDonald,Ontario,83.5,96.0
+15.,Craig/Craig,Ontario,69.8,91.0
+16.,Weeks/Steep,Ontario,72.7,83.3
+17.,Adams/Robichaud,New Brunswick,61.3,79.1
+18.,Peterman/Gallant,Alberta,43.4,75.5
+19.,Jones/Laing,Ontario,51.9,75.1
+20.,Kjaerland/Braenden,Norway,61.7,71.9
+21.,Fenson/Stopera,Minnesota,55.7,71.3
+22.,Walczak/Augustyniak,Poland,56.9,69.8
+23.,Zhang/Wang,China,62.4,68.4
+24.,Smith/Niepage,Ontario,62.5,68.3
+25.,Martin/Laycock,Saskatchewan,41.9,65.2
+26.,Gray-Withers/Pietrangelo,Alberta,54.9,64.6
+27.,Engler/Wunderlin,Switzerland,48.7,64.4
+28.,Schoell/Sutor,Germany,55.4,60.9
+29.,Lott/Lott,Manitoba,32.4,57.6
+30.,Spruit/Spruit,Ontario,48.7,57.3
+31.,Schwaller/Schwaller,Switzerland,51.4,56.1
+32.,Gionest/Desjardins,Quebec,41.7,55.8
+33.,Brunton/Forget,Ontario,46.2,55.7
+34.,Wasylkiw/Konings,Ontario,36.5,55.1
+35.,Walker/Muyres,Alberta,27.3,52.3
+36.,Abbes/Harsch,Germany,35.4,51.3
+37.,Cave/King,Ontario,50.0,50.0
+38.,Gaidule/Buncis,Latvia,43.9,49.1
+39.,Maheux/Maheux,Quebec,42.8,48.8
+40.,Woo/Wenzek,British Columbia,38.4,44.1
+41.,Kim/Yoo,Korea,44.0,44.0
+42.,Immonen/Sipila,Finland,34.6,43.8
+43.,Tremblay/Lanoue,Quebec,31.5,43.6
+44.,Watson/Beland,New Brunswick,41.6,41.6
+45.,Nathan/Nathan,Ontario,35.1,40.4
+46.,Roenning/Buraas,Denmark,30.5,39.6
+47.,Barbarin/Coulot,France,39.1,39.1
+48.,Senneker/Visnich,Michigan,36.2,38.2
+49.,Bouchard/Charest,Quebec,28.2,38.2
+50.,Lee/Kim,Korea,36.0,36.0
+51.,Mallett/Jackson,Ontario,32.9,35.3
+52.,Wrana/Wrana,Sweden,23.4,34.8
+53.,Feldkamp/Villard,Ontario,31.7,33.2
+54.,Tiuliakova/Totzek,Germany,26.9,33.1
+55.,Sanscartier/Caron,Quebec,28.3,32.6
+56.,Kim/Jeong,Korea,32.0,32.0
+57.,Bailey/Sipura,Ontario,25.7,31.8
+58.,Forster/Forster,Ontario,31.5,31.5
+59.,Sengul/Cakir,Turkiye,27.5,30.8
+60.,Kim/Seong,Korea,15.0,28.9
+61.,Holtermann/Holtermann,Denmark,19.3,28.5
+62.,Butler/Butler,Ontario,25.5,28.3
+63.,Burghout/Thompson,Ontario,23.7,28.2
+64.,Wilson/Dow,Ontario,26.3,27.9
+65.,McMillan/Bryce,Scotland,21.8,26.4
+66.,Gagne/Morissette,Quebec,15.1,25.7
+67.,Udvardi-Palancsa/Tatar,Hungary,25.3,25.3
+68.,Marchand/Charbonneau,Quebec,23.6,24.3
+69.,Kim/Lee,Korea,24.0,24.0
+70.,Park/Kim,Korea,24.0,24.0
+71.,Kim/Kim,Korea,24.0,24.0
+72.,Shim/Park,Korea,24.0,24.0
+73.,Moores/Wheeler,Colorado,17.2,23.9
+74.,Powers/Saunders,Nova Scotia,3.9,22.4
+75.,Campbell/Carr,New Brunswick,22.3,22.3
+76.,Springer/Springer,Saskatchewan,15.0,22.2
+77.,Otaegi/Unanue,Spain,15.2,21.7
+78.,Wynter/Sallaj,New Brunswick,19.5,21.4
+79.,Ueno/Yamaguchi,Japan,20.0,21.1
+80.,Ryhorchuk/Peterson,Alberta,20.1,21.0
+81.,Davie/Watt,Scotland,16.0,20.6
+82.,Weldon/Franey,Colorado,16.0,20.4
+83.,Ford/Krowchuk,Ontario,16.0,20.3
+84.,Coleman/Robertson,California,19.7,20.1
+85.,Cinnamon/Tao,Alberta,15.8,19.7
+86.,Tonoli/Hoekman,Netherlands,18.3,19.6
+87.,Hueppi/Weiss,Switzerland,18.9,19.6
+88.,Bomas/Gosgens,Netherlands,18.4,19.6
+89.,Fellmann/Kovalchuk,Quebec,12.4,18.8
+90.,Ostrowski/Nickel,Minnesota,17.2,18.4
+91.,Papley/Van Amsterdam,Alberta,8.5,18.4
+92.,Johnston/Johnston,New Brunswick,17.1,18.1
+93.,Lee/Kim,Korea,18.0,18.0
+94.,Loken/Tanaka,British Columbia,17.9,17.9
+95.,Richards/Davies,Alberta,17.1,17.6
+96.,Roach/Gilbert,Ontario,12.4,17.1
+97.,Jensen/Meister,British Columbia,15.4,16.5
+98.,Meister/Jensen,British Columbia,15.4,16.5
+99.,Tanguay/Charbonneau,Quebec,15.6,16.4
+100.,Scebbi/Scebbi,Ohio,14.3,16.3
+101.,Neary/Hancock,Newfoundland / Labrador,14.8,16.3
+102.,Klimova/Klima,Czechia,16.2,16.2
+103.,Hagenbuch/Laufer,Illinois,14.6,15.9
+104.,Podoll/Parry,North Dakota,13.6,15.8
+105.,Dudt/Dudt,Pennsylvania,14.6,15.8
+106.,Robertson/Robertson,Ontario,14.1,15.6
+107.,Trembath/Grassie,Manitoba,14.0,15.2
+108.,Grassie/Trembath,Manitoba,14.0,15.2
+109.,Arbuckle/Macdonell,Manitoba,7.4,15.0
+110.,Matulova/Moravcik,Slovakia,14.7,14.7
+111.,Tracy/Riggs,New Brunswick,14.3,14.6
+112.,Kiemele/Singer,Ontario,11.3,14.4
+113.,Remeshylo/Derksen,Saskatchewan,13.8,13.8
+114.,Mackenzie/Middleton,British Columbia,7.2,13.6
+115.,Kraft/Kraft,North Dakota,12.0,13.3
+116.,McGillivray/Cowan,British Columbia,11.1,13.1
+117.,Burgess/Morin,Alberta,12.7,13.1
+118.,Ouellet/Rousseau,Quebec,9.2,13.0
+119.,Holt/Brenden,North Dakota,11.0,12.9
+120.,Yarmuch/Sawiak,Alberta,11.7,12.8
+121.,Just/Cherpin,Saskatchewan,6.1,12.7
+122.,Morissette/Hudon,Quebec,12.0,12.5
+123.,Seol/Kim,Korea,12.0,12.4
+124.,Lamontagne/LaMontagne,Saskatchewan,10.4,12.4
+125.,Chao/Fowler,Illinois,11.2,12.4
+126.,Hausstatter/Svorkmo-Lundberg,Norway,10.8,12.0
+127.,Yang/Lee,Korea,12.0,12.0
+128.,Park/Jeon,Korea,12.0,12.0
+129.,Henwood/Maude,Ontario,11.6,12.0
+130.,Cheal/Cheal,Quebec,9.1,11.8
+131.,Chou/Liu,Chinese Taipei,10.4,11.7
+132.,Westhagen/Panoussi,Australia,11.6,11.6
+133.,Paulova/Paul,Czechia,3.5,11.4
+134.,Blackburn/Fortin,Quebec,10.8,11.0
+135.,Shaw/Garcia Revuelto,Spain,10.9,10.9
+136.,Garcia Revuelto/Shaw,Spain,10.9,10.9
+137.,Serra/Tompkins,Mexico,9.9,10.4
+138.,Joo/Karasz,Hungary,9.2,10.3
+139.,Leong/Munroe,Alberta,9.3,10.3
+140.,Munroe/Leong,Alberta,9.3,10.3
+141.,Shipmaker/Shinde,Ontario,9.8,10.2
+142.,Nilsson/Olofsson,Sweden,8.7,10.1
+143.,Headley/Headley,Ontario,9.0,10.0
+144.,Fleming/Bestland,Minnesota,9.5,9.9
+145.,Ideson/Henry,Ontario,9.9,9.9
+146.,Mayra/Kirby,Michigan,8.5,9.5
+147.,Millikin/Millikin,Australia,9.5,9.5
+148.,Harris/Chester,British Columbia,5.1,9.4
+149.,Cottenoir/Martel,Quebec,6.0,9.3
+150.,Kang/Lee,Korea,9.0,9.2
+151.,Bang/Kim,Korea,9.0,9.0
+152.,Kim/Park,Korea,9.0,9.0
+153.,Kim/Park,Korea,9.0,9.0
+154.,Hwang/Park,Korea,9.0,9.0
+155.,Forsythe/Stewart,New Brunswick,8.9,8.9
+156.,Paquette/Daoust,Northern Ontario,7.5,8.9
+157.,Kreviazuk/Mathers,Ontario,6.6,8.7
+158.,Fortin/Descoteaux,Quebec,8.1,8.6
+159.,Rykove/Rykov,Lithuania,8.0,8.6
+160.,Rozon/Champ,Ontario,8.6,8.6
+161.,Kawleski/Kauffman,North Dakota,7.8,8.5
+162.,Johns/Johns,Australia,8.4,8.4
+163.,Klimova/Klima,Czechia,8.1,8.1
+164.,Pohlod/Fenton,British Columbia,7.1,7.9
+165.,Cihlarova/Macek,Czechia,5.9,7.8
+166.,Hussain/Husain,Guyana,5.9,7.7
+167.,Parmiter/Burgess,New Brunswick,2.0,7.6
+168.,Cull/Garand,Quebec,6.6,7.5
+169.,Beaulieu/Pelletier,Quebec,5.4,7.4
+170.,Stevens/Weagle,Nova Scotia,7.2,7.2
+171.,Comeau/Smeltzer,New Brunswick,6.9,6.9
+172.,Scalesse/Pimpini,Italy,3.9,6.9
+173.,Sobering/Sobering,Colorado,6.5,6.8
+174.,Burgess/Burgess,New Brunswick,3.9,6.8
+175.,Kononenko/Shchur,Ukraine,5.3,6.8
+176.,Pifer/Pifer,North Carolina,6.0,6.6
+177.,Turbow/Kot,Colorado,5.0,6.4
+178.,Laplante/Gibeau,Quebec,0.0,6.3
+179.,Thunman/Granbom,Sweden,6.2,6.2
+180.,Chen/Chen,Ontario,6.0,6.2
+181.,Dubberstein/Malvar,Philippines,5.1,6.2
+182.,Ratte/Ratte,Quebec,6.0,6.1
+183.,Hollands/Grabow,North Dakota,6.0,6.1
+184.,Hartwell/Borkovic,Alberta,6.1,6.1
+185.,Lee/Cho,Korea,6.0,6.0
+186.,Neron/Ferland,Quebec,6.0,6.0
+187.,Ha/Kim,Korea,6.0,6.0
+188.,Tanaka/Sato,Japan,4.4,6.0
+189.,Ingram/Tenetuik,Saskatchewan,5.8,6.0
+190.,Lang/Lang,Saskatchewan,3.5,5.7
+191.,Bookhout/Wiza,Wisconsin,5.0,5.7
+192.,Hung/Yan,Hong Kong,4.5,5.7
+193.,Wood/Betts,Colorado,5.5,5.6
+194.,Thurston/Lannoye,Wisconsin,5.3,5.6
+195.,McKenzie/Dunlop,Manitoba,5.5,5.5
+196.,MacNutt/Abraham,Nova Scotia,5.5,5.5
+197.,Pekowitz/Strack,Minnesota,5.4,5.5
+198.,Augustin/Karg,Austria,5.4,5.4
+199.,Wheatcroft/Naugler,Alberta,4.3,5.4
+200.,Schmidt/Schmidt,Denmark,1.8,5.4
+201.,Scheel/McMullin,North Dakota,4.7,5.1
+202.,Wood/Snow,Saskatchewan,5.0,5.0
+203.,Workin/Workin,North Dakota,3.8,4.9
+204.,Stopera/Guentzel,Minnesota,4.8,4.9
+205.,Farwell/Grabow,Colorado,4.1,4.8
+206.,Kenney/Scimia,Connecticut,4.4,4.7
+207.,Hafeli/Kopytko,British Columbia,4.4,4.5
+208.,Sherry/Sherry,Illinois,3.9,4.4
+209.,Stella/Carle,Colorado,3.6,4.4
+210.,Stewart/Axelsson,Illinois,4.2,4.4
+211.,Rugg/Gamble,Saskatchewan,4.0,4.3
+212.,Nedohin/Nedohin,Alberta,4.1,4.3
+213.,Wong/Duncan-Wu,British Columbia,4.2,4.2
+214.,Gourianova/Vidaurrazaga,Massachusetts,3.3,4.2
+215.,Hackett/Hackett,Alabama,3.8,4.1
+216.,Raniseth/Crough,Alberta,1.8,4.1
+217.,Damen/Van Amsterdam,Alberta,3.0,4.1
+218.,Billo/Martin,Quebec,2.3,4.1
+219.,Funaki/Kamada,Japan,3.2,4.0
+220.,Madisson/Kukner,Estonia,1.8,4.0
+221.,Moore/Purcell,Nova Scotia,3.9,3.9
+222.,Fitzgerald/McPherson,Nova Scotia,3.9,3.9
+223.,Matsuda/Matsuda,Japan,3.6,3.9
+224.,Johnson/Podhradsky,Minnesota,2.4,3.7
+225.,Wendling/Paral,Wisconsin,1.7,3.6
+226.,Cummings/Hoffard,British Columbia,3.5,3.5
+227.,Patel/Raju,India,3.2,3.5
+228.,Barron/Paradis,Ireland,3.2,3.5
+229.,Hoag/Gordon,Saskatchewan,3.3,3.5
+230.,Moskalenko/Suhak,Ukraine,2.8,3.4
+231.,Gallagher/Gagnon,Australia,3.2,3.2
+232.,Robins/Francey,Australia,3.2,3.2
+233.,White/White,Prince Edward Island,0.9,3.2
+234.,Gale Seixeiro/Seixeiro,British Columbia,2.6,3.1
+235.,Masse/Doston,Quebec,3.0,3.1
+236.,Ashton/Gira,Saskatchewan,2.9,3.0
+237.,Kim/Kwon,Korea,3.0,3.0
+238.,Kim/Park,Korea,3.0,3.0
+239.,Devaux/Devaux,Switzerland,3.0,3.0
+240.,Heggestad/Heggestad,Ontario,0.0,2.9
+241.,Hamilton/Peterson,Ohio,2.7,2.9
+242.,Bradshaw/Kizlyk,Colorado,2.6,2.9
+243.,Bonache/Betts,California,2.8,2.8
+244.,McCarthy/Heys,Ontario,2.8,2.8
+245.,Jones/Imes,Ohio,2.7,2.7
+246.,Kalk/MacAlpine,Alberta,1.2,2.7
+247.,Mulville/Hale,Ontario,0.0,2.7
+248.,Langham/Mechenbier,Colorado,2.7,2.7
+249.,Schroeder/Hoppe,Wisconsin,2.7,2.7
+250.,Bowman/Bowman,Northern Ontario,2.4,2.6
+251.,Mallett/McCrady,British Columbia,0.8,2.6
+252.,Wadwell/Clarke,British Columbia,2.6,2.6
+253.,Geerinckx/Heylen,Belgium,2.6,2.6
+254.,Paisley/Michaelis,Wisconsin,0.9,2.6
+255.,Fountain/Fountain,Colorado,1.7,2.6
+256.,Hopson/Tippett,Ontario,2.5,2.5
+257.,Pearcey/Elgie,Ontario,2.5,2.5
+258.,Duncan/Keenan,Alberta,2.5,2.5
+259.,Fisher/McCallum,Minnesota,2.4,2.4
+260.,DiBaggio/Mann,Ohio,1.1,2.4
+261.,Suter/Raju,British Columbia,2.1,2.4
+262.,Deschene/Deschene,Northern Ontario,2.3,2.3
+263.,Weddro/Andre,Estonia,1.8,2.3
+264.,Simard/Villeneuve,Quebec,2.3,2.3
+265.,Forestell/Forestell,New Brunswick,2.1,2.1
+266.,Kaare/Padama,Estonia,0.0,2.1
+267.,Adamkova/Adamek,Czechia,2.1,2.1
+268.,Hoffmann/Dryburgh,Switzerland,2.1,2.1
+269.,Allison/Allison,Missouri,1.9,2.1
+270.,Leschinsky/Oblander,Ohio,1.7,2.0
+271.,Kennedy/Kennedy,Alberta,0.5,2.0
+272.,Zuercher/Probst,Switzerland,1.9,1.9
+273.,Horner/Hoffard,British Columbia,1.9,1.9
+274.,Simpson/Derksen,Saskatchewan,1.7,1.8
+275.,Harrison/Allen,Ontario,1.4,1.8
+276.,Ethier/Santos,Portugal,1.3,1.8
+277.,Biesecker/Mansell,Colorado,1.7,1.8
+278.,Hari/Hari,Northern Ontario,1.7,1.7
+279.,Goodin/Stanley,New Brunswick,1.6,1.6
+280.,Cottrill/Cottrill,Ontario,1.0,1.5
+281.,Artemova/Trevisiol,Germany,1.5,1.5
+282.,Vaydich/Macomber,North Dakota,1.2,1.5
+283.,Armstrong/Woods,Ontario,0.0,1.5
+284.,Ross/Rettinger,Ontario,1.4,1.4
+285.,Moriarty/Dexter,Nova Scotia,1.4,1.4
+286.,Dyderska/Telak,Poland,1.4,1.4
+287.,Williams/Straub,Tennessee,1.3,1.4
+288.,Banghi/Coliban,Romania,1.3,1.4
+289.,Heldin/Patz,Sweden,1.1,1.3
+290.,Fediuk/Hiebert,Alberta,1.0,1.3
+291.,Benson/Jackson,Michigan,1.1,1.3
+292.,Cuzela/Horvat,Croatia,1.3,1.3
+293.,Roy/Roy,Quebec,1.2,1.2
+294.,Bush/Philips,Pennsylvania,0.7,1.2
+295.,Pfluegler/Genner,Australia,1.2,1.2
+296.,Wiksten/Wiksten,Denmark,0.0,1.2
+297.,Thornborough/Larence,British Columbia,1.1,1.2
+298.,Danahey/Allain,Colorado,0.7,1.1
+299.,Roy/Sonier,Quebec,0.3,1.1
+300.,Belway/Belway,British Columbia,0.4,1.1
+301.,Myers/Lerner,Illinois,0.4,1.1
+302.,Bourne/Emslie,British Columbia,1.1,1.1
+303.,Caron/d'Amboise,Quebec,1.0,1.1
+304.,Miura/Kudo,Japan,0.9,1.1
+305.,Bowles/Wu,British Columbia,1.1,1.1
+306.,Hagenbuch/Henry,Illinois,0.9,1.1
+307.,Fitzgibbon/McKenzie,British Columbia,1.1,1.1
+308.,Ponzio/Picard,Minnesota,1.0,1.0
+309.,Pekowitz/Cenzalli,Massachusetts,0.9,1.0
+310.,Comeau/Hebert,Quebec,1.0,1.0
+311.,Potter/Shimko,Ohio,0.7,1.0
+312.,Jagger/Morris,Ontario,1.0,1.0
+313.,Fitzgerald/McCurdy,Nova Scotia,1.0,1.0
+314.,Mitchell/Jeffrey,Nova Scotia,1.0,1.0
+315.,Bassiri/Kadlec,Wisconsin,0.9,1.0
+316.,Calcutt/Kenlan,North Carolina,0.8,0.9
+317.,Chance/Enberg,Minnesota,0.9,0.9
+318.,McDonald/Feldman Jr,Arizona,0.9,0.9
+319.,Takeda/Takeda,Japan,0.9,0.9
+320.,Suzuki/Niino,Japan,0.6,0.9
+321.,Kopytko/Deng,British Columbia,0.4,0.9
+322.,Theriault/Beland,Quebec,0.7,0.8
+323.,Lee/Barclay,Massachusetts,0.8,0.8
+324.,Nathan/Bence,Australia,0.8,0.8
+325.,Foley/Patterson,Australia,0.8,0.8
+326.,Dunstone/Freshwater,Australia,0.8,0.8
+327.,McIntosh-Phillips/Heskett,Australia,0.8,0.8
+328.,Powell/Collins,Australia,0.8,0.8
+329.,Walsh/Donnelly,Ontario,0.8,0.8
+330.,McKinnon/Rettinger,Ontario,0.7,0.7
+331.,Silversides/Tessier,Saskatchewan,0.4,0.7
+332.,Hebert/Gravel,Quebec,0.7,0.7
+333.,Willford/Staveteig,North Dakota,0.6,0.7
+334.,Treynor/Hellman,California,0.6,0.7
+335.,Gerbaulet/Caie,Quebec,0.5,0.7
+336.,Barclay/Hanson,New Brunswick,0.0,0.7
+337.,Mihm/Mihm,Minnesota,0.6,0.7
+338.,Tellier/Winters,Ontario,0.6,0.7
+339.,Chaudhari/Anthay,India,0.4,0.7
+340.,Montgomery/Maxwell,British Columbia,0.6,0.6
+341.,Bartel/Batt,British Columbia,0.6,0.6
+342.,Bakker/Jacques,Alberta,0.5,0.6
+343.,Kohlts/Britton,North Dakota,0.6,0.6
+344.,Yuki/Ohara,Japan,0.6,0.6
+345.,Rokke/Rokke,North Dakota,0.6,0.6
+346.,Nakamura/Michitani,Japan,0.6,0.6
+347.,Yachiw-Omelian/Raymond,Saskatchewan,0.0,0.6
+348.,Carlson/Curtis,Alabama,0.5,0.6
+349.,Wark/Richard,British Columbia,0.0,0.6
+350.,Gaum/Miller,Illinois,0.6,0.6
+351.,Horakova/Horak,Czechia,0.5,0.5
+352.,Pfluegler/Hofer,Austria,0.5,0.5
+353.,Frysz/Pasierbek,Poland,0.3,0.5
+354.,McIntosh/Durau,British Columbia,0.4,0.5
+355.,Hashi/Woods,Nigeria,0.4,0.5
+356.,Jackson/Montgomery,Ontario,0.0,0.4
+357.,Zahn/Conant,Illinois,0.4,0.4
+358.,Grzelka/Grzelka,Poland,0.4,0.4
+359.,Daley/Vainio,Northern Ontario,0.0,0.4
+360.,Visser/Visser,Illinois,0.4,0.4
+361.,Dangaran/Berardo,Ohio,0.3,0.3
+362.,Lopez/Stafford,Ohio,0.3,0.3
+363.,Vogelsang/Roy,Saskatchewan,0.3,0.3
+364.,Carlson/Carlson,Wisconsin,0.0,0.3
+365.,Anderson/Cooper,Minnesota,0.3,0.3
+366.,Venugopal/Laufer,Pennsylvania,0.3,0.3
+367.,Mori/Abe,Japan,0.3,0.3
+368.,Goenka/Hellman,California,0.3,0.3
+369.,Pathy-Dencso/Szabo,Hungary,0.3,0.3
+370.,Pfuegler/Resch,Austria,0.3,0.3
+371.,Hoess/Neumayr,Austria,0.3,0.3
+372.,Paquette/Hunt,Northern Ontario,0.0,0.2
+373.,Moran/Larson,Illinois,0.2,0.2
+374.,Johnston/Harrison,Ontario,0.0,0.2
+375.,Orokocka/Horacek,Slovakia,0.0,0.2
+376.,Meyer/Meyer,Illinois,0.2,0.2
+377.,Triolo/Sanders,Washington,0.0,0.2
+378.,Palmer/Steinhilber,Ohio,0.2,0.2
+379.,Dunphy/Steinhilber,Ohio,0.2,0.2
+380.,Neznalova/Neznal,Czechia,0.0,0.1
+381.,McMakin/Strouse,North Dakota,0.0,0.1
+382.,Perreault/Boucher,Quebec,0.0,0.1
+383.,Girard-Cote/Bouchard-Cote,Quebec,0.0,0.1
+384.,Hruzova/Havlena,Czechia,0.0,0.1
+385.,Johnson/Blizzard,California,0.0,0.0
+386.,Yoshino/Ohta,Japan,0.0,0.0
+387.,McFadden/Nogueira,Ontario,0.0,0.0
+388.,Girardin/Jean-Loup,France,0.0,0.0
+389.,Ladouceur/Ladouceur,Saskatchewan,0.0,0.0
+390.,Comeau/Andrew,New Brunswick,0.0,0.0
+391.,Mellish/Mengers,Ontario,0.0,0.0
+392.,Park/Choi,Korea,0.0,0.0
+393.,Soltermann/Luethold,Switzerland,0.0,0.0
+394.,Sakurai/Iwasaki,Japan,0.0,0.0
+395.,Miller/Lynn,Arizona,0.0,0.0
+396.,Loughlin/Koch,Illinois,0.0,0.0
+397.,Ash/Loyns,Saskatchewan,0.0,0.0
+398.,Lovitt/Leung,Ontario,0.0,0.0
+399.,King/King,Northwest Territories,0.0,0.0
+400.,Brittain/Moretto,Ontario,0.0,0.0
+401.,Fleming/Fleming,Colorado,0.0,0.0
+402.,Thibault/Graham,Quebec,0.0,0.0
+403.,Shin/Jeon,Korea,0.0,0.0
+404.,Kong/Kong,California,0.0,0.0
+405.,McGinn/McGinn,New Brunswick,0.0,0.0
+406.,Smith/Wilson,Minnesota,0.0,0.0
+407.,Bushmakina/Gaudin,France,0.0,0.0
+408.,Leonard/Dacey,Nova Scotia,0.0,0.0
+409.,Jones/Jones,Ontario,0.0,0.0
+410.,De Souza Campos/Ribiero Pires,Brazil,0.0,0.0
+411.,Sorenson/Sorenson,Ohio,0.0,0.0
+412.,Hidber/Lee,British Columbia,0.0,0.0
+413.,Villiard/Carignan,Quebec,0.0,0.0
+414.,Jackson/Wolter,Michigan,0.0,0.0
+415.,Desrosiers/Briggs,Ontario,0.0,0.0
+416.,Taylor-Hunt/Jaeger,British Columbia,0.0,0.0
+417.,Higdon/Higdon,British Columbia,0.0,0.0
+418.,Sharland/Sharland,Minnesota,0.0,0.0
+419.,Oh/Yoon,Korea,0.0,0.0
+420.,McClelland/Rowley,Ontario,0.0,0.0
+421.,Byers/Fenech,Ontario,0.0,0.0
+422.,Katz/Katz,Utah,0.0,0.0
