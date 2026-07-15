@@ -1,9 +1,9 @@
 name: Generate Week Index
 
 on:
-  workflow_run:
-    workflows: ["Scrape Curling Data Weekly"]
-    types: [completed]
+  schedule:
+    - cron: "0 10 * * 1" # Every Monday at 10:00 UTC
+  workflow_dispatch: # Allow manual trigger too
 
 permissions:
   contents: write
@@ -58,7 +58,7 @@ jobs:
         if: env.DEPLOY_NEEDED == 'true'
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
 
       - name: Install dependencies
         if: env.DEPLOY_NEEDED == 'true'
